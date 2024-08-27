@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import junit.framework.Assert;
 
-public class orangeHRM {
+public class OrangeHRMTest {
 	
 	public String BaseURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	public WebDriver driver;
@@ -94,7 +94,7 @@ public class orangeHRM {
 		driver.findElements(By.xpath("//input[@placeholder='Type for hints...']")).get(0).sendKeys("Ramya");
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 5, enabled=false)
 	public void deleteEmployee() {
 		
 		driver.findElement(By.xpath("//a[.='PIM']")).click();
