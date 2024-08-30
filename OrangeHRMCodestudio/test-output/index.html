@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ramya\AppData\Local\Temp\testng-eclipse--1540721800\testng-customsuite.xml</span>
+                    <span>C:\Users\ramya\AppData\Local\Temp\testng-eclipse-70408310\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +103,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Demo1.orangeHRM" class="method navigator-link" hash-for-method="addEmployee">addEmployee</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Demo1.OrangeHRMTest" class="method navigator-link" hash-for-method="addEmployee">addEmployee</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Demo1.orangeHRM" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Demo1.OrangeHRMTest" class="method navigator-link" hash-for-method="applyLeave">applyLeave</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Demo1.orangeHRM" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Demo1.OrangeHRMTest" class="method navigator-link" hash-for-method="listEmployee">listEmployee</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Demo1.orangeHRM" class="method navigator-link" hash-for-method="searchEmployee">searchEmployee</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Demo1.OrangeHRMTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Demo1.OrangeHRMTest" class="method navigator-link" hash-for-method="searchEmployee">searchEmployee</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -136,7 +141,7 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Demo1.orangeHRM</span>
+              <span class="class-name">Demo1.OrangeHRMTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -148,9 +153,16 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteEmployee">
-                  </a> <!-- deleteEmployee -->
-                  <span class="method-name">deleteEmployee</span>
+                  <a name="applyLeave">
+                  </a> <!-- applyLeave -->
+                  <span class="method-name">applyLeave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listEmployee">
+                  </a> <!-- listEmployee -->
+                  <span class="method-name">listEmployee</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -172,7 +184,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ramya\AppData\Local\Temp\testng-eclipse--1540721800\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ramya\AppData\Local\Temp\testng-eclipse-70408310\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,7 +193,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Demo1.orangeHRM&quot;/&gt;
+      &lt;class name=&quot;Demo1.OrangeHRMTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -221,28 +233,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addEmployee')
-data.setCell(0, 2, 'Demo1.orangeHRM')
-data.setCell(0, 3, 11275);
+data.setCell(0, 1, 'listEmployee')
+data.setCell(0, 2, 'Demo1.OrangeHRMTest')
+data.setCell(0, 3, 63399);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deleteEmployee')
-data.setCell(1, 2, 'Demo1.orangeHRM')
-data.setCell(1, 3, 8836);
+data.setCell(1, 1, 'applyLeave')
+data.setCell(1, 2, 'Demo1.OrangeHRMTest')
+data.setCell(1, 3, 12943);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchEmployee')
-data.setCell(2, 2, 'Demo1.orangeHRM')
-data.setCell(2, 3, 6165);
+data.setCell(2, 1, 'addEmployee')
+data.setCell(2, 2, 'Demo1.OrangeHRMTest')
+data.setCell(2, 3, 9095);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest')
-data.setCell(3, 2, 'Demo1.orangeHRM')
-data.setCell(3, 3, 2813);
+data.setCell(3, 1, 'searchEmployee')
+data.setCell(3, 2, 'Demo1.OrangeHRMTest')
+data.setCell(3, 3, 3445);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginTest')
+data.setCell(4, 2, 'Demo1.OrangeHRMTest')
+data.setCell(4, 3, 2267);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -257,12 +273,14 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">Demo1.orangeHRM</span>
+              <span class="ignored-class-name">Demo1.OrangeHRMTest</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">deleteEmployee</span>
+                <br/>
                 <span class="ignored-method-name">loginTestWithInvalidCredentials</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -275,30 +293,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Demo1.orangeHRM</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Demo1.OrangeHRMTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">12713 ms</span>
+                <span class="method-start">16602 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addEmployee</span>
-                <span class="method-start">15544 ms</span>
+                <span class="method-start">18882 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchEmployee</span>
-                <span class="method-start">26828 ms</span>
+                <span class="method-start">27988 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">deleteEmployee</span>
-                <span class="method-start">32997 ms</span>
+                <span class="method-name">listEmployee</span>
+                <span class="method-start">31445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">applyLeave</span>
+                <span class="method-start">94853 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41841 ms</span>
+                <span class="method-start">107800 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

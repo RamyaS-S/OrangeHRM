@@ -110,6 +110,7 @@ public class OrangeHRMTest {
 		Assert.assertEquals(msg, "No Records Found");
 	}
 	
+	@Test(priority = 6, enabled=true)
 	public void listEmployee() {
 		driver.findElement(By.xpath("//a[.='PIM']")).click();
 		driver.findElement(By.xpath("//a[.='Employee List']")).click();
@@ -128,11 +129,20 @@ public class OrangeHRMTest {
 				{
 					System.out.println("Not a number");
 				}
-			
 		}
+	}
+	@Test(priority = 7, enabled=true)
+	public void applyLeave() throws InterruptedException {
+		
+		driver.findElement(By.xpath("//span[.='Leave']")).click();
+		
+		driver.findElement(By.xpath("//a[.='Apply']")).click();
 		
 		
 		
+		Thread.sleep(2000);
+		
+		logoutTest();
 	}
 	
 	public void logoutTest() throws InterruptedException {
